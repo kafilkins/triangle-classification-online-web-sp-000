@@ -2,12 +2,12 @@ class Triangle
   attr_accessor :a, :b, :c
 
   def initialize(a, b, c)
-    @equilateral = equilateral
-    @isosceles = isosceles
-    @scalene = scalene
+    @a = a
+    @b = b
+    @c = c 
   end
 
-  def kind()
+  def kind
 
   end
 
